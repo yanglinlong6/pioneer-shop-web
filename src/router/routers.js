@@ -7,26 +7,26 @@ const routers = [
     {
         path: "/home",
         name: "home",
-        component: () => import("../components/HelloWorld.vue")
+        component: () => import("@/components/HelloWorld.vue")
     },
     {
         path: "/about",
         name: "about",
-        component: () => import("../components/Good.vue")
+        component: () => import("@/components/Good.vue")
     },
     {
         path: "/about1",
         name: "about",
-        component: () => import("../components/Home.vue")
+        component: () => import("@/components/Home.vue")
     },
     {
         path: "/about2",
         name: "about",
-        component: () => import("../components/About.vue")
+        component: () => import("@/components/About.vue")
     }, {
         path: "/meihao",
         name: "meihao",
-        component: () => import("../components/meihao.vue")
+        component: () => import("@/components/meihao.vue")
     }
 ]
 
